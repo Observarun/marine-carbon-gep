@@ -1,0 +1,19 @@
+# Python cache (generated automatically)
+__pycache__/
+*.py[cod]
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings (if you use VS Code or Pycharm)
+.vscode/
+.idea/
+
+# Local logs (if your script generates logs in the same folder)
+*.log
+
+# Just in case you accidentally drag a data file in
+*.tif
+*.shp
+*.gpkg
