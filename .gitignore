@@ -1,19 +1,41 @@
 # Python cache (generated automatically)
 __pycache__/
 *.py[cod]
+*.egg-info/
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# IDE settings (if you use VS Code or Pycharm)
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# IDE settings
 .vscode/
 .idea/
+.cursor/
 
-# Local logs (if your script generates logs in the same folder)
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
 
-# Just in case you accidentally drag a data file in
+# Geospatial raster/vector data (large binary files)
 *.tif
+*.tiff
+*.vrt  # GDAL virtual raster (intermediate, not for tracking)
+*.aux.xml  # GDAL statistics sidecar files
 *.shp
+*.shx
+*.dbf
+*.prj
+*.sbn
+*.sbx
 *.gpkg
+
+# CSVs
+*.csv
+marine_carbon_gep_*/
+

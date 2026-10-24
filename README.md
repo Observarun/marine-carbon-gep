@@ -1,7 +1,7 @@
-This repository is a hazelbean-based implementation of ocean carbon storage computation for the GEP project at UMN's NatCap TEEMS.
+# Global GEP from climate regulation through marine in/organic carbon and methane hydrates
 
-Create the environment using: conda env create -f environment.yml.
+Four marine pools considered: dissolved inorganic carbon (DIC), dissolved organic carbon (DOC) + marine biota, marine sediment carbon (excluding coastal), and methane hydrates.
+Spatial allocation based on area-proportionality approach.
 
-Scripts look for inputs in ~/Files/base_data, as set in base_data_dir variable in run_ocean_carbon.py.
 
-To execute: python run_ocean_carbon.py
+Create the environment using: conda env create -f environment.yml .
